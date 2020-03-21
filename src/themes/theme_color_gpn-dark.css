@@ -18,12 +18,12 @@ $color-base-critical: #33000f;
   /* //////////////////////////////
   // Цвета фонов /////////////// */
   --color-bg-default: color($color-base-essential a(100%)); /* Цвет дефолта */
-  --color-bg-secondary: color($color-base-essential l(+10)); /* Цвет дефолта */
+  --color-bg-secondary: color($color-base-essential l(-5)); /* Цвет дефолта */
   --color-bg-brand: color($color-base-project a(100%)); /* Цвет фона брендированый */
   --color-bg-link: color($color-base-path a(100%)); /* Цвет фона ссылки */
   --color-bg-border: color($color-base-phantom a(20%) l(+10)); /* Цвет границ */
-  --color-bg-stripe: color($color-base-phantom a(5%)); /* Цвет зебры */
-  --color-bg-ghost: color($color-base-phantom a(8%)); /* Цвет затенения */
+  --color-bg-stripe: color($color-base-phantom a(8%)); /* Цвет зебры */
+  --color-bg-ghost: color($color-base-phantom a(10%)); /* Цвет затенения */
   --color-bg-tone: color($color-base-phantom l(-92%) a(85%)); /* Цвет паранджи */
   --color-bg-soft: color($color-base-essential l(+100%) a(90%)); /* Цвет молока */
   --color-bg-system: color($color-base-system a(100%)); /* Цвет фона системнный */
